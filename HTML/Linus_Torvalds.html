@@ -10,13 +10,24 @@
         html{
             scroll-behavior: smooth;
         }
+        aside{
+            float:right;
+            width:40%;
+            background-color: blueviolet;
+        }
     </style>
 </head>
 <br>
-    <h1>Linus Torvalds</h1>
-    <br/>
-    <h3>The Creator of Linux</h3>
-    <a href="#res">Go to Resources</a><!--BookMark--><!--# to refer id . to refer class-->
+<body>
+    <header>
+        <h1>Linus Torvalds</h1>
+        <p>The Creator of Linux</p>
+    </header>
+    <nav>
+        <a href="#res">Go to Resources</a><!--BookMark-->
+        <a href="#bio">Go to Biography</a>
+        <a href="#ach">Go to Achievements</a>
+    </nav>
     <br>
     <figure><!--correct tag used-->
         <img src="Linus Torvalds.jpeg"
@@ -29,16 +40,22 @@
    <br>
    <!--section can also be used-->
    <section>
-   <h1>Biography</h1><br><!--only one h1 tag should be there-->
+   <h1 id="bio">Biography</h1><br><!--only one h1 tag should be there-->
    <p>   Linus Benedict Torvalds is a Finnish-American software engineer who is the creator and lead developer of the Linux kernel,
      used by Linux distributions like Debian, Arch and Android. He also created the distributed version control system Git.
      He was honored, along with Shinya Yamanaka, with the 2012 Millennium Technology Prize by the Technology Academy Finland
      "in recognition of his creation of a new open source operating system for computers leading to the widely used Linux kernel."
      He is also the recipient of the 2014 IEEE Computer Society Computer Pioneer Award and the 2018 IEEE Masaru Ibuka Consumer Electronics Award.</p>
     </section>
+
+    <aside><p></p>Linus Benedict Torvalds is a Finnish-American software engineer who is the creator and lead developer of the Linux kernel,
+        used by Linux distributions like Debian, Arch and Android. He also created the distributed version control system Git.
+        He was honored, along with Shinya Yamanaka, with the 2012 Millennium Technology Prize by the Technology Academy Finland
+        "in recognition of his creation of a new open source operating system for computers leading to the widely used Linux kernel."
+        He is also the recipient of the 2014 IEEE Computer Society Computer Pioneer Award and the 2018 IEEE Masaru Ibuka Consumer Electronics Award.</p></aside>
     <br>
 <section>
-    <h2>Achievements</h2>
+    <h2 id="ach">Achievements</h2>
     <ul>
         <li><b>1991</b>:Created the Linux kernel and the version control system of Git</li>
         <li><b>2004</b>:Named one of the"100 Most Influential People in the world</li>
@@ -73,5 +90,6 @@
         <li><a href="https://www.kernel.org/">The Linux Kernel Archives</a></li>
     </ul>
 </section>
+<footer>Linus_Torvalds Page</footer>
 </body>
 </html>
