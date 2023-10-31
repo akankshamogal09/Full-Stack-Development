@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specificity</title>
+    <style>
+        p{
+            color:red !important;
+        }
+        .para{
+            color:blueviolet;
+        }
+        #pr{
+            color:hotpink;
+        }
+        div{
+            background-color: rgb(167, 140, 29);
+            color: black;
+        }
+        .divi{
+            background-color: gold;
+        }
+        #divc{
+            background-color: greenyellow;
+            font-size: large;
+        }
+    </style>
+</head>
+<body>
+    <p class="para" id="pr"> color are assigned to this differently by class,id and element !important.Then which will be chosen .Here comes specificity </p>
+    <p>4.Tag Selector 3.Class 2.ID 1.Inline CSS</p>
+    <p>Inline CSS is first prefered in specificity.</p>
+    <p>if !important is used it is prefered but is a bad practise</p>
+    <div class="divi" id="divc"> What's up?  </div>
+</body>
+</html>
