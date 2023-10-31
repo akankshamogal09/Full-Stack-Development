@@ -1,0 +1,19 @@
+.box{
+    height:100px;
+    width:200px;
+    border:5px solid black;
+    margin:10px;
+    padding:25px;
+    /* box-sizing: border-box; 
+    to avoid increase in size due to padding
+    width of content decreased  */
+}
+#org{
+    background-color:#ff7747;
+}
+#wht{
+    background-color: rgb(245, 228, 228);
+}
+#grn{
+    background-color: green;
+}
