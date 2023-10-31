@@ -1,0 +1,21 @@
+#div1{
+    background-color: blueviolet;
+    width:500px;
+/* absolute unit 1px 1inch */
+    height:200px;
+    font-size:20px
+}
+#div2{
+    background-color: darksalmon;
+    width:10%;
+    /* percentage unit 10%*/
+    height:10%;
+    font-size: 1em;
+    margin:10px;
+    padding:10px;
+}
+#pu{
+    background-color: aqua;
+    width:50vw;
+    height:50vh;
+}
