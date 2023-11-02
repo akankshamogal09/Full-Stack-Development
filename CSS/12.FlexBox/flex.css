@@ -1,0 +1,51 @@
+.container{
+    height:400px;
+    border:2px solid blue;
+    display:flex;
+    /*anyone to be used*/
+    /*change axis of main */
+    flex-direction: row;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    flex-direction: row-reverse;
+    /*width will be intact on skewsing*/
+    flex-wrap:wrap;
+    flex-wrap:nowrap;
+    flex-wrap:wrap-reverse;
+    /*flex-flow direction wrap at once*/
+    flex-flow: row wrap;
+    /*Justify Content :align item according to main axis*/
+    justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    justify-content: space-between;
+    justify-content: center;
+    /*align--item :align item according to cross axis*/
+    align-items: flex-start;
+    align-items: flex-end;
+    align-items: center;
+    align-items: stretch;
+    align-items: baseline;
+    /* to take content to centre */
+    align-items: center;
+    justify-content: center;
+
+    /*gap between items it differs from margin as gap is only between items*/
+    /* row-gap: ; column-gap: ; */
+    gap:0px;
+    
+    /*align-content:to add gap in row*/
+    align-content:flex-end ;
+    align-content:center ;
+    align-content:flex-start ;
+    align-content: space-between;
+    align-content: space-around;
+    align-content: space-evenly; 
+
+}
+.box{
+    border:1px solid black;
+    background-color: blueviolet;
+    width:100px;
+}
