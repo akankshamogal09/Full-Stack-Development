@@ -4,9 +4,9 @@ div{
     background-color: aqua;
     border:1px solid black;
 }
-.static{
+/* .static{
  
-}
+} */
 .translated{
     transform: perspective(10px) translateZ(-10px);
 }
