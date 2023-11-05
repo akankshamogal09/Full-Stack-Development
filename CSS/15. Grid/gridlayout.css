@@ -1,0 +1,37 @@
+.container{
+    background-color: crimson;
+    height:500px;
+    border:3px solid black;
+    display:grid;
+
+    grid-template-columns: 150px 1fr 150px;
+    grid-template-rows: 30px 1fr 1fr 30px;
+}
+.box{
+    background-color: chartreuse;
+    border:2px solid black;
+    gap:3px;
+}
+#bh{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+#bs{
+   grid-row-start: 2;
+   grid-row-end: 4;
+ 
+}
+#bc{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+#ba{
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+#bf{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
