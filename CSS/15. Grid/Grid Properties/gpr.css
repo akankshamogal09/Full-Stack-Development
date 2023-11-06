@@ -1,0 +1,46 @@
+.container{
+    border:1px solid black;
+    background-color: gold;
+    height:700px;
+    width:400px;
+    display:grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px;
+
+    grid-gap:10px;
+
+    justify-content:start ;
+    /* justify-content:end;
+    justify-content:center;
+    justify-content:space-between;
+    justify-content:space-around; */
+  /*to change position on  horizontal axis justify is used*/
+
+  
+
+  /* align-items:start;
+  align-items:stretch;
+  align-items:end;  */
+  /*to change position on  vertical axis justify is used*/
+
+  /* align-content: space-between;
+  align-content:space-evenly */
+
+  /* place-items: center; */
+  /* place-content: center; */
+  justify-content:center;
+  justify-items: center;
+  align-items:center;
+  align-content:center;
+}
+.box{
+    border:1px solid red;
+    background-color:aqua;
+}
+#box1{
+    /* justify-self: start;
+    justify-self: end;
+    justify-self: center; */
+    align-self:center;
+
+}
