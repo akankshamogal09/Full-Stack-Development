@@ -1,0 +1,22 @@
+.container{
+    height:500px;
+    width:500px;
+    background-color: rgb(255, 182, 127);
+    border:3px solid red;
+    display:flex;
+}
+.box{
+    height:150px;
+    width:150px;
+    margin:20px;
+    border:2px solid orange;
+    background-color: aquamarine;
+    /* transition:2s; */
+    transition-property:background-color;
+    /* transition-delay: 5s; */
+    transition-timing-function: ;
+}
+
+.box:hover{
+    background-color: brown;
+}
